@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,9 @@
   <link rel="stylesheet" href="scss/_global.scss">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-  <div class="sing__up-form">
+  <section class="signup-form">
     <h1>Sign up</h1>
     <div class="bonus">
       <div class="bonus__inner">
@@ -39,37 +41,34 @@
         </a>
       </div>
     </div>
-    <form class="input">
-      <div class="container">
-        <div class="iput__inner">
-          <input class="input-box" type="email" placeholder="Email/Phone">
-          <input class="input-box" type="password" placeholder="Password">
-        </div>
+    <form class="form">
+      <div class="form__inner">
+        <input class="input-box" type="email" placeholder="Email/Phone" required>
+        <input class="input-box" type="password" placeholder="Password" required>
       </div>
+      <div class="check-box">
+        <label>
+          <input class="check__box" type="checkbox">
+          <span class="check-style"></span>
+          I want to receive news and promotions from the casino
+        </label>
+        <label>
+          <input class="check__box" type="checkbox">
+          <span class="check-style"></span>
+          I unconditionally agree with "Terms & Conditions", "Data Policy", "Cookie Policy" and that I am older than 18 years old.
+        </label>
+      </div>
+      <button type="submit" class="button" href="#">REGISTRATION</button>
     </form>
-    <div class="check-box">
-      <label>
-        <input class="check__box"  type="checkbox">
-        <span class="check-style"></span>
-        <p>I want to receive news and promotions from the casino</p>
-      </label>
-      <label>
-        <input class="check__box" type="checkbox">
-        <span class="check-style"></span>
-        <p>I unconditionally agree with "Terms & Conditions", "Data Policy", "Cookie Policy" and that I am older than 18
-          years old.</p>
-      </label>
+    <div class="log-in">
+      <p class="log-in__text">Already have an account?</p>
+      <a class="log-in__link" href="#">Log in</a>
     </div>
-         <div class="registration">
-          <a class="registration__link" href="#">REGISTRATION</a>
-         </div>
-         <footer class="footer">
-            <p class="account">Already have an account? </p>
-            <a class="log-in" href="#">Log in</a>
-         </footer>
-  </div>
+  </section>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,149 @@
+@import "_vars.scss";
+@import "_libs.scss";
+@import "_fonts.scss";
+@import "_global.scss";
+.sing__up-form {
+  width: 624px;
+  height: 891px;
+  background-color: #212121;
+  border-radius: 51px;
+  padding: 20px;
+  margin: 60px auto;
+  text-align: center;
+}
+.deposit {
+  font-weight: 400;
+  font-size: 25px;
+  color: #CBCBCB;
+  p {
+    font-weight: 700;
+    margin: 0;
+  }
+  span {
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFD55B;
+    margin: 0;
+    filter: drop-shadow(0px 0px 3px #EA8003);
+  }
+}
+.social-text {
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+.social-icon a+a {
+  margin-left: 25px;
+}
+.social-icon {
+  margin-bottom: 37px;
+}
+.input-box {
+  width: 450px;
+  height: 45px;
+  border-radius: 14px;
+  background-color: #484848;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding-left: 38px;
+  margin-bottom: 13px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+}
+.input-box::placeholder {
+  color: #fff;
+}
+.check__box {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  padding-left: 20px;
+  top: 0;
+  left: 0;
+}
+.check-box {
+  p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 0;
+    width: 405px;
+    height: 60px;
+    text-align: left;
+    margin: -10px 0px;
+    padding-left: 16px;
+  }
+}
+.check-style {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #FFC42D;
+  border-radius: 6px;
+  margin-left: -20px;
+}
+.check__box:checked+.check-style {
+  background-image: url(../img/arrowdown.png);
+  background-color: #FFC42D;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+.registration__link {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  margin-top: 51px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #826313 0%, #FFE589 101.87%);
+  border-radius: 15px;
+  padding: 18px 68px;
+}
+.footer {
+  .account {
+    color: #989898;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .log-in {
+    color: #FFCA40;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 19px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "_media.scss";
